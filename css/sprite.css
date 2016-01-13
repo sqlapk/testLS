@@ -1,0 +1,60 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+#icon-facebook {
+  background-image: url("../img/sprite/sprite.png") no-repeat;
+  background-position: 0px -42px;
+  width: 47px;
+  height: 47px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+#icon-gihtub {
+  background-image: url("../img/sprite/sprite.png");
+  background-position: -47px -42px;
+  width: 47px;
+  height: 47px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+#icon-logo-hor-long {
+  background-image: url("../img/sprite/sprite.png");
+  background-position: 0px 0px;
+  width: 179px;
+  height: 42px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+#icon-logo-hor {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -94px -89px;
+  width: 50px;
+  height: 40px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+#icon-tw {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -94px -42px;
+  width: 47px;
+  height: 47px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+#icon-vk {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: 0px -89px;
+  width: 47px;
+  height: 47px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+#icon-vk_hover {
+  background-image: url(sprite.png);
+  background-position: -47px -89px;
+  width: 47px;
+  height: 47px;
+  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}

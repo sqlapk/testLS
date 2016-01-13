@@ -13,7 +13,6 @@ header{
     position: fixed;
     width:100%;
     top:0;
-
 }
 main{
     display:block;
@@ -21,10 +20,17 @@ main{
     margin-top: 150px;
     padding-top:40px;
 }
+#social ul li{
+    display:inline-block;
+    position:relative;
+    margin-right: 5px;
+}
 nav{
     margin-right: 60px;
     float:left;
+    position:fixed;
 }
+
 .post{
     min-height:245px;
 }
@@ -32,7 +38,7 @@ nav{
     margin:0 auto;
     display:block;
     width:640px;
-    position:relative;
+    position:static;
 }
 footer{
     height: 100px;
@@ -47,6 +53,14 @@ nav ol li{
     height:70px;
     border-bottom:1px solid #3ba8c0;
     list-style-type: none;
+}
+#nav_left_sidebar a{
+    /*padding-top:25px;*/
+    /*padding-bottom:25px;*/
+    /*padding-left:33px;*/
+    text-decoration:none;
+    padding:25px 33px;
+    position: absolute;
 }
 nav ol li:first-child{
     border-top-left-radius: 5px;
