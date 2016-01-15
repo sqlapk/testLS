@@ -9,52 +9,81 @@ Icon classes can be used entirely standalone. They are named after their origina
 <img class="icon-home" />
 ```
 */
-#icon-facebook {
-  background-image: url("../img/sprite/sprite.png") no-repeat;
+.icon-facebook {
+  background-image: url(../img/sprite/sprite.png);
   background-position: 0px -42px;
   width: 47px;
   height: 47px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
 }
-#icon-gihtub {
-  background-image: url("../img/sprite/sprite.png");
-  background-position: -47px -42px;
-  width: 47px;
-  height: 47px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
-}
-#icon-logo-hor-long {
-  background-image: url("../img/sprite/sprite.png");
-  background-position: 0px 0px;
-  width: 179px;
-  height: 42px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
-}
-#icon-logo-hor {
-  background-image: url(../img/sprite/sprite.png);
-  background-position: -94px -89px;
-  width: 50px;
-  height: 40px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
-}
-#icon-tw {
-  background-image: url(../img/sprite/sprite.png);
-  background-position: -94px -42px;
-  width: 47px;
-  height: 47px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
-}
-#icon-vk {
+.icon-facebook:hover {
   background-image: url(../img/sprite/sprite.png);
   background-position: 0px -89px;
   width: 47px;
   height: 47px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
 }
-#icon-vk_hover {
-  background-image: url(sprite.png);
+.icon-github:hover {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -47px -42px;
+  width: 47px;
+  height: 47px;
+}
+.icon-github {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -94px -42px;
+  width: 47px;
+  height: 47px;
+}
+.icon-logo-hor-long {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: 0px 0px;
+  width: 179px;
+  height: 42px;
+}
+.icon-logo-hor {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: 0px -136px;
+  width: 50px;
+  height: 40px;
+}
+.icon-pack {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -179px -94px;
+  width: 36px;
+  height: 34px;
+}
+.icon-study {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -50px -136px;
+  width: 41px;
+  height: 23px;
+}
+.icon-tw {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -94px -89px;
+  width: 47px;
+  height: 47px;
+}
+.icon-tw:hover {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -179px 0px;
+  width: 47px;
+  height: 47px;
+}
+.icon-vk {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -179px -47px;
+  width: 47px;
+  height: 47px;
+}
+.icon-vk:hover {
+  background-image: url(../img/sprite/sprite.png);
   background-position: -47px -89px;
   width: 47px;
   height: 47px;
-  background-repeat: repeat-x; /* Повторяем фон по горизонтали */
+}
+.icon-work {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -141px -42px;
+  width: 26px;
+  height: 32px;
 }

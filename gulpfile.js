@@ -2,14 +2,16 @@ var gulp = require('gulp'),
     stylus = require('gulp-stylus'),
     //jquery = require('gulp-jquery'),
     sourcemaps = require('gulp-sourcemaps'),
-    spritesmith = require('gulp.spritesmith');
-var jquery = require('gulp-jquery');
+    spritesmith = require('gulp.spritesmith'),
+    jquery = require('gulp-jquery'),
+    notify = require('gulp-notify');
 
 
 gulp.task('styl', function () {
     gulp.src('stylus/*.styl')
         .pipe(sourcemaps.init())
         .pipe(stylus())
+        .pipe(notify("Успех"))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('css'));
         return gulp.src('./node_modules/jquery/src')
@@ -36,6 +38,6 @@ gulp.task('sprite', function() {
     spriteData.css.pipe(gulp.dest('css/')); // путь, куда сохраняем стили
 });
 
-gulp.task('default', ['styl', 'sprite','watch'], function () {
+gulp.task('default', ['styl','watch'], function () {
     // что-то делаем
 });

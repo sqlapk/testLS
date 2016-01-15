@@ -1,4 +1,3 @@
-# testLS
+# Тестово задание LoftSchool
+Демонстрация : http://cybergen.ru/testls/
 шаблон тестовый
-изменённый 5:40 12.01.16
-изменения - gitignore

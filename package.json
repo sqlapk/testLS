@@ -3,12 +3,15 @@
   "devDependencies": {
     "browser-sync": "^2.2.3",
     "browser-sync-client": "^1.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-respond": "^1.0.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-stylus": "^2.1.1",
     "gulp.spritesmith": "^6.0.0"
   },
   "dependencies": {
     "gulp": "^3.9.0",
+    "gulp-jquery": "^1.1.1",
     "gulp-stylus": "^2.1.1",
     "gulp.spritesmith": "^6.0.0"
   },
